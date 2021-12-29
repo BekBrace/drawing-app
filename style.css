@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+}
+
+b { 
+    color: white;
+}
+
+#canvas {
+    cursor: crosshair;
+}
+
+#rad {
+    width: 35px;
+    height: 14px;
+    background: grey;
+    color: white;
+    border:none;
+    margin: 3px;
+}
+
+#menu {
+    padding: 10px;
+    height: auto;
+    width: 100%;
+    background: #323232;
+    position: fixed;
+    display: block;
+}
+
+#color {
+    margin: 0 3px 0;
+    width: 25px;
+    height: 25px;
+    background: none;
+    padding:0;
+    border: 1px solid black;
+}
+
+#settings {
+    float: left;
+}
+
+
